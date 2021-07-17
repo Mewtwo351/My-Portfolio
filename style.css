@@ -1,0 +1,19 @@
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+body{
+    text-align: center;
+    background-color: gold;
+}
+img{
+    height: 300px;
+    width: 299px;
+    transition: transform .2s;
+    margin-left: 30px;
+}
+img:hover{
+    transform: scale(1.1);
+}
